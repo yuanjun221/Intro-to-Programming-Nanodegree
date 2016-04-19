@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Notes - Stage:0</title>
+  </head>
+
+  <body>
+    <h2>My Notes for Stage:0</h2>
+
+    <b>The Web</b>
+    <p>
+      collection of HTML documents
+    </p><br>
+
+    <b>HTML</b> (Hypertext Markup Language)<br>
+    <p>
+      the language the browsers use to interpret web pages<br>
+      the main type of document on the web<br>
+      can contain texts, links, images, videos, music and anything else together.<br>
+      can contain the styles of all these elements that should be represented
+    </p><br>
+
+    <b>Major Piece of the Web</b>
+    <p>
+    ［<em>Your Computer / Browser</em>] <-----> [<em>The Internet]</em> <-----> [<em>Servers</em>]
+    </p><br>
+
+    <b>HTTP</b> (Hypertext Transfer Protocol)
+    <p>
+    the main protocol of the web
+    </p><br>
+
+    <b>HTML Markup</b>
+    <p>
+    use <b>&lt;b&gt;</b>contents<b>&lt;/b&gt;</b> to <b>make the contents bold</b><br><br>
+    use <b>&lt;em&gt;</b>contents<b>&lt;/em&gt;</b> to <em>make the contents italic</em>
+    <p><br>
+
+    <b>HTML Attributes</b>
+    <p>
+    use <b>&lt;a href = "url"&gt;</b>contents<b>&lt;/a&gt;</b> to creat a link<br><br>
+
+    for example:<br>
+    <a href="https://www.udacity.com">Udacity</a><br>
+    <a href="https://www.wikipedia.org">Wikipedia</a><br>
+    <a href="http://www.mit.edu">MIT</a></br><br>
+
+    use <b>&lt;img src = "url" alt="text"&gt;</b>contents<b>&lt;/img&gt;</b> to insert a image<br>
+
+    for example:<br>
+    <img src="https://cn.udacity.com/assets/images/svgs/logo_wordmark.svg" height = "60px" alt="udacity" /><br>
+    <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark@2x.png" height = "60px" alt="wikipedia" /><br>
+    <img src="http://www.mit.edu/files/images/homepage/default/mit_logo.gif?v=1461039307" height = "60px" alt="MIT" /><br>
+
+
+    </p><br>
+
+    <b>Inline vs. Block elements</b>
+    <p>
+    Block elements wrap the content with a "box" <br>
+    which will make a new line right after the block tag<br><br>
+
+    <em>Inline:</em>
+    &lt;b&gt; &lt;em&gt; &lt;img&gt; &lt;span&gt; &lt;a&gt; &lt;strong&gt; &lt;br&gt;<br><br>
+
+    <em>Block:</em>
+    &lt;p&gt; &lt;div&gt; &lt;form&gt;
+    </p>
+
+  </body>
+</html>
