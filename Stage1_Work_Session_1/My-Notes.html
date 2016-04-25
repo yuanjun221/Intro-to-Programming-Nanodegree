@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Notes</title>
+  </head>
+
+  <body>
+    <h1>My Notes For Important Concepts</h1>
+
+    <!-- Notes for Stage0 -->
+    <div>
+      <h2>Notes for Stage:0 The Basics of the Web and HTML</h2>
+
+      <!-- The Web -->
+      <div>
+        <h3>The Web</h3>
+        <p>
+          collection of HTML documents
+        </p>
+      </div>
+
+      <!-- HTML -->
+      <div>
+        <h3>HTML</h3> (Hypertext Markup Language)
+        <p>
+          the language the browsers use to interpret web pages;<br>
+          the main type of document on the web;<br>
+          can contain texts, links, images, videos, music and anything else together;<br>
+          can contain the styles of all these elements that should be represented.
+        </p>
+      </div>
+
+      <!-- Major Piece of the Web -->
+      <div>
+        <h3>Major Piece of the Web</h3>
+        <p>
+          [<em>Your Computer / Browser</em>] <-----> [<em>The Internet]</em> <-----> [<em>Servers</em>]
+        </p>
+      </div>
+
+      <!-- HTTP -->
+      <div>
+        <h3>HTTP (Hypertext Transfer Protocol)</h3>
+        <p>
+          the main protocol of the web
+        </p>
+      </div>
+
+      <!-- HTML Markup -->
+      <div>
+        <h3>HTML Markup</h3>
+        <p>
+          use <b>&lt;b&gt;</b>contents<b>&lt;/b&gt;</b> to <b>make the contents bold</b><br>
+          use <b>&lt;em&gt;</b>contents<b>&lt;/em&gt;</b> to <em>make the contents italic</em>
+        </p>
+      </div>
+
+      <!-- HTML Attributes -->
+      <div>
+        <h3>HTML Attributes</h3>
+        <p>
+          use <b>&lt;a href = "url"&gt;</b>contents<b>&lt;/a&gt;</b> to creat a link<br>
+          for example:<br>
+          <a href="https://www.udacity.com">Udacity</a><br>
+          <a href="https://www.wikipedia.org">Wikipedia</a><br>
+          <a href="http://www.mit.edu">MIT</a></br>
+        </p>
+        <p>
+          use <b>&lt;img src = "url" alt="text"&gt;</b>contents<b>&lt;/img&gt;</b> to insert a image<br>
+          for example:<br>
+          <img src="https://cn.udacity.com/assets/images/svgs/logo_wordmark.svg" height = "60px" alt="udacity" /><br>
+          <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark@2x.png" height = "60px" alt="wikipedia" /><br>
+          <img src="http://www.mit.edu/files/images/homepage/default/mit_logo.gif?v=1461039307" height = "60px" alt="MIT" />
+        </p>
+      </div>
+
+      <!-- Inline vs. Block element -->
+      <div>
+        <h3>Inline vs. Block elements</h3>
+        <p>
+          Block elements wrap the content with a "box" <br>
+          which will make a new line right after the block tag
+        </p>
+        <p>
+          <em>Inline:</em>
+          &lt;b&gt; &lt;em&gt; &lt;img&gt; &lt;span&gt; &lt;a&gt; &lt;strong&gt; &lt;br&gt;<br>
+
+          <em>Block:</em>
+          &lt;p&gt; &lt;div&gt; &lt;form&gt;
+        </p>
+      </div>
+    </div>
+
+    <!-- Stage1 -->
+    <div>
+      <h2>Notes for Stage:1 Creating a HTML Document</h2>
+
+      <!-- Why Start From HTML and CSS -->
+      <div>
+        <h3>Why Start From HTML and CSS</h3>
+        <p>
+          It's one of the few areas of programming that is just <em>inherently visual</em>.
+        </p>
+      </div>
+
+      <!-- Using Developer Tool -->
+      <div>
+        <h3>Using Developer Tool</h3>
+        <p>
+          What you see is not the actual code but rather the structure of the page<br>
+          as the browser inteprets it.<br>
+          All elements you can see on the page are rectangular.<br>
+          You can read the all the same texts as on the page.
+        </p>
+      </div>
+
+      <!-- Tree Structure -->
+      <div>
+        <h3>Tree Structure</h3>
+
+        <!-- HTML -->
+        <div>
+          <h4>HTML</h4>
+          <p>
+            HTML is the language of the web, it controls the "structure" of a web page<br>
+            The browser turns HTML <em>tags</em> into <em>elements</em> that form a <em>tree</em>(DOM)<br>
+            Each html tag creat an element in DOM that the browser use to display the page
+          </p>
+          <p>
+            basic word: tag<br>
+            element: <b>&lt;tag&gt;</b>content<b>&lt;/tag&gt;</b>
+          </p>
+          <p>
+            the content can be empty, text or in other element<br>
+            each tag has a name, or type: defines what kind of element will be created<br>
+            each tag has attributes with values:<br>
+            <b>&lt;h1 class="article"&gt;</b>content<b>&lt;/h1&gt;</b><br>
+            <b>h1</b>: tag <b>class</b>:attribute <b>article</b>:value of attribute
+          </p>
+        </div>
+
+        <!-- DOM -->
+        <div>
+          <h4>DOM (Document Object Model)</h4>
+          <p>
+            It's a standard convention for representing and interacting with elements in HTML.<br>
+            The tree in developer tools is the DOM tree that browser build from a html document.
+          </p>
+        </div>
+
+        <!-- CSS -->
+        <div>
+          <h4>CSS (Cascading Style Sheets) </h4>
+          <p>
+            a language controls the "style" of a page (how it looks)
+          </p>
+        </div>
+
+        <!-- Box -->
+        <div>
+          <h4>Box</h4>
+          <p>
+            everything in the web page is actually a box<br>
+            use <b>&lt;div&gt;</b>content<b>&lt;/div&gt;</b> to creat a box
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
