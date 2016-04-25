@@ -1,2 +1,2 @@
-This Repository contains the projects build for Udacity Course
-Inro-to-Programming-Nanodgree for each course stage
+This Repository contains the files of work sessions and projects<br>
+built for Udacity Course Inro-to-Programming-Nanodgree
