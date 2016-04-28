@@ -2,7 +2,7 @@
 enclosed by different characters than HTML comments. */
 
 * {
-  /*outline: 1px solid red !important;*/
+  /* outline: 1px solid red !important;*/
 }
 
 body {
@@ -15,7 +15,6 @@ header {
   width: 100%;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.8);
-  /* background-image: url(images/bf.png); */
   z-index: 100;
   padding: 20px;
 }
@@ -72,22 +71,33 @@ header {
 .poem {
   width: 600px;
   margin: 0 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
 .ps01 {
-  background: rgba(186, 224, 219, 0.5);
-  box-shadow: 0 0 1em rgba(51, 108, 160, 0.8);
+  background: rgba(148, 200, 207, 0.5);
+  box-shadow: 0 0 1em rgba(40, 52, 49, 0.8);
+  font-size: 18px;
+  line-height: 31px;
+  text-shadow: 0px 0px 20px white;
 }
 
 .ps02 {
-  background: rgba(90, 144, 84, 0.3);
+  background: rgba(90, 144, 84, 0.5);
   box-shadow: 0 0 1em rgba(50, 51, 79, 0.8);
+  font-size: 18px;
+  line-height: 38px;
+  color: white;
+  text-shadow: 0px 0px 20px black;
 }
 
 .ps03 {
-  background: rgba(148, 200, 207, 0.3);
-  box-shadow: 0 0 1em rgba(40, 52, 49, 0.8);
+  background: rgba(186, 224, 219, 0.5);
+  box-shadow: 0 0 1em rgba(51, 108, 160, 0.8);
+  font-size: 22px;
+  line-height: 36px;
+  text-shadow: 0px 0px 20px white;
 }
 
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
