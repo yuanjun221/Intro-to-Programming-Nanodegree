@@ -2,7 +2,7 @@
 enclosed by different characters than HTML comments. */
 
 * {
-  /* outline: 1px solid red !important;*/
+   /* outline: 1px solid red !important; */
 }
 
 body {
@@ -17,6 +17,19 @@ header {
   background: rgba(255, 255, 255, 0.8);
   z-index: 100;
   padding: 20px;
+}
+
+a {
+  target="_blank";
+}
+
+a:visited, a:link, a:active{
+  color: rgba(100, 100, 100, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 .poem-bg {
@@ -55,17 +68,52 @@ header {
 }
 
 .title {
+  display: block;
   height: 150px;
+  line-height: 220px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 32px;
+  font-weight: bold;
 }
 
-.author {
-  display: -webkit-flex;
-  display: flex;
-  height: 100px;
+.ts01 {
+  color: darkslategrey;
+  text-shadow: 0 0 1em white, 0 0 1em white;
+}
+
+.ts02 {
+  color: beige;
+  text-shadow: 0 0 1em black, 0 0 1em black;
+}
+
+.ts03 {
+  color: darkolivegreen;
+  text-shadow: 0 0 1em white , 0 0 1em white;
 }
 
 .author-name {
-  width: 200px;
+  display: block;
+  margin: auto;
+  height: 30px;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 1em white , 0 0 1em white;
+}
+
+.author-image-frame {
+  display: block;
+  margin: auto;
+  width: 70px;
+}
+
+.author-image {
+  display: block;
+  margin: auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 1em white;
 }
 
 .poem {
@@ -73,31 +121,31 @@ header {
   margin: 0 20px;
   padding: 20px 0;
   text-align: center;
+  overflow: hidden;
+  font-size: 18px;
 }
 
 .ps01 {
   background: rgba(148, 200, 207, 0.5);
   box-shadow: 0 0 1em rgba(40, 52, 49, 0.8);
-  font-size: 18px;
   line-height: 31px;
-  text-shadow: 0px 0px 20px white;
+  text-shadow: 0 0 1em white, 0 0 1em white;
 }
 
 .ps02 {
   background: rgba(90, 144, 84, 0.5);
   box-shadow: 0 0 1em rgba(50, 51, 79, 0.8);
-  font-size: 18px;
   line-height: 38px;
   color: white;
-  text-shadow: 0px 0px 20px black;
+  text-shadow: 0 0 1em black, 0 0 1em white;
 }
 
 .ps03 {
   background: rgba(186, 224, 219, 0.5);
   box-shadow: 0 0 1em rgba(51, 108, 160, 0.8);
-  font-size: 22px;
   line-height: 36px;
-  text-shadow: 0px 0px 20px white;
+  color: darkslategray;
+  text-shadow: 0 0 1em beige , 0 0 1em beige;
 }
 
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
