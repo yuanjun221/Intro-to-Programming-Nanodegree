@@ -5,31 +5,75 @@ enclosed by different characters than HTML comments. */
    /* outline: 1px solid red !important; */
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 body {
   margin: 0;
   padding:0;
 }
 
 header {
+  display: -webkit-flex;
+  display: flex;
   position: fixed;
+  height: 56px;
   width: 100%;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 1em rgba(40, 52, 49, 0.3);
   z-index: 100;
-  padding: 20px;
+  padding: 0 20px;
 }
 
-a {
-  target="_blank";
+h1 {
+  width: 400px;
+  font-size: 24px;
+  line-height: 24px;
+  text-shadow: 0 0 1em white, 0 0 1em white;
 }
 
-a:visited, a:link, a:active{
+.fast-link {
+  position: relative;
+  float: right;
+  width: 100%;
+  margin-right: 20px;
+}
+
+ul {
+  margin: 0 0;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+  line-height: 56px;
+  height: 56px;
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+a.pnlink:visited, a.pnlink:link, a.pnlink:active {
   color: rgba(100, 100, 100, 1);
   text-decoration: none;
 }
 
-a:hover {
+a.pnlink:hover {
   color: black;
+}
+
+a.ptlink:visited, a.ptlink:link, a.ptlink:active {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 0 1em black, 0 0 1em gray;
+  text-decoration: none;
+}
+
+a.ptlink:hover {
+  color: gray;
+  text-shadow: 0 0 1em white, 0 0 1em white;
 }
 
 .poem-bg {
@@ -39,18 +83,18 @@ a:hover {
   padding: 0;
   background-position: center;
   background-size: cover;
-  position: relative;
+  position:relative;
 }
 
-.pb01 {
+#pb01 {
   background-image: url(images/IMG01.png);
 }
 
-.pb02 {
+#pb02 {
   background-image: url(images/IMG02.png);
 }
 
-.pb03 {
+#pb03 {
   background-image: url(images/IMG03.png);
 }
 
@@ -58,7 +102,8 @@ a:hover {
   display: -webkit-flex;
   display: flex;
   margin: 0 auto;
-  padding: 10% 10%;
+  overflow: hidden;
+  padding: 130px 50px 100px;
   width: 1000px;
   height: 500px;
 }
@@ -77,22 +122,22 @@ a:hover {
   font-weight: bold;
 }
 
-.ts01 {
+#ts01 {
   color: darkslategrey;
   text-shadow: 0 0 1em white, 0 0 1em white;
 }
 
-.ts02 {
+#ts02 {
   color: beige;
   text-shadow: 0 0 1em black, 0 0 1em black;
 }
 
-.ts03 {
+#ts03 {
   color: darkolivegreen;
   text-shadow: 0 0 1em white , 0 0 1em white;
 }
 
-.author-name {
+.poet-name {
   display: block;
   margin: auto;
   height: 30px;
@@ -101,13 +146,13 @@ a:hover {
   text-shadow: 0 0 1em white , 0 0 1em white;
 }
 
-.author-image-frame {
+.poet-image-frame {
   display: block;
   margin: auto;
   width: 70px;
 }
 
-.author-image {
+.poet-image {
   display: block;
   margin: auto;
   height: 70px;
@@ -120,19 +165,20 @@ a:hover {
   width: 600px;
   margin: 0 20px;
   padding: 20px 0;
+  border-radius: 4px;
   text-align: center;
-  overflow: hidden;
+  overflow:hidden;
   font-size: 18px;
 }
 
-.ps01 {
+#ps01 {
   background: rgba(148, 200, 207, 0.5);
   box-shadow: 0 0 1em rgba(40, 52, 49, 0.8);
   line-height: 31px;
   text-shadow: 0 0 1em white, 0 0 1em white;
 }
 
-.ps02 {
+#ps02 {
   background: rgba(90, 144, 84, 0.5);
   box-shadow: 0 0 1em rgba(50, 51, 79, 0.8);
   line-height: 38px;
@@ -140,12 +186,23 @@ a:hover {
   text-shadow: 0 0 1em black, 0 0 1em white;
 }
 
-.ps03 {
+#ps03 {
   background: rgba(186, 224, 219, 0.5);
   box-shadow: 0 0 1em rgba(51, 108, 160, 0.8);
   line-height: 36px;
   color: darkslategray;
   text-shadow: 0 0 1em beige , 0 0 1em beige;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  background: rgba(20, 30, 44, 1);
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  padding-top: 9px;
 }
 
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
